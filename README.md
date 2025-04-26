@@ -1,98 +1,127 @@
 # ArxivIntelBot: AI-Powered Chatbot for Research Paper Classification and Expert Insights
-🚀 An intelligent chatbot designed to:
+🚀 ArxivIntelBot
+AI-Powered Chatbot for Research Paper Classification and Expert Insights
 
-Search Computer Science research papers from arXiv.
 
-Summarize papers for quick understanding.
+📋 Table of Contents
+About the Project
 
-Explain complex CS concepts clearly using advanced LLM models.
+Key Features
 
-✨ Features
-🔍 Ask Expert: Get AI-powered answers with references from academic research papers.
+Tech Stack
 
-📚 Summarize Papers: Upload your research papers or custom text and get concise summaries.
+Setup Instructions
 
-🧠 Explain Concepts: Learn computer science topics explained simply.
+App Structure
 
-🧩 Flexible Models: Choose from Llama3, Mistral, or Vicuna models (via Ollama).
+Learning Outcomes
+
+Acknowledgements
+
+Contact
+
+License
+
+📖 About the Project
+ArxivIntelBot is an intelligent chatbot designed to enhance research and learning experiences for computer science enthusiasts.
+It combines the power of retrieval-augmented generation (RAG) and local large language models (LLMs) to:
+
+Search academic papers from the arXiv database.
+
+Generate expert answers with referenced context.
+
+Summarize uploaded research papers.
+
+Explain complex computer science concepts clearly and simply.
+
+✨ Key Features
+🔍 Ask Expert: Get AI-generated answers enriched with context from real research papers.
+
+📚 Summarize Research: Upload text or papers and receive concise 150-word summaries.
+
+🧠 Explain Concepts: Enter any CS topic and get an easy-to-understand explanation.
+
+🛠 Model Selection: Choose between Llama3, Mistral, or Vicuna for response generation.
+
+⚡ Fast Dataset Search: Multithreaded searching through millions of research papers.
 
 🛠️ Tech Stack
-Python 3.11
+Frontend: Streamlit
 
-Streamlit
+Backend: Python, Multithreading, Asyncio
 
-LangChain
+LLM Models: Ollama (Llama3, Mistral, Vicuna)
 
-Ollama LLM (Local models)
+Libraries: LangChain, Streamlit, asyncio
 
-Multithreading for fast search
+Dataset: arXiv Metadata Snapshot
 
-arXiv metadata JSON dataset
-
-🚀 How to Run Locally
-Clone the Repository:
-
+🚀 Setup Instructions
+1. Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/your-username/ArxivIntelBot.git
 cd ArxivIntelBot
-Install Required Packages:
-
+2. Install Required Packages
 bash
 Copy
 Edit
 pip install -r requirements.txt
-Download the Dataset:
+3. Download the Dataset
+📥 Download Dataset Here
 
-📥 Download arXiv Metadata Dataset Here :https://drive.google.com/file/d/17_TAzEQimPfmsDoExFoRd--3XGf666IH/view?usp=drive_link
+Save it locally and update the path inside Backend.py if needed.
 
-Save it to your machine.
+4. Run Ollama Locally
+Make sure your Ollama server is running with models like Llama3, Mistral, or Vicuna.
 
-Update the dataset path in Backend.py if needed.
-
-Make sure Ollama is installed locally and running with models like Llama3, Mistral, or Vicuna.
-
-Run the Streamlit App:
-
+5. Start the Application
 bash
 Copy
 Edit
 streamlit run Frontend.py
-🧩 App Structure
+🗂️ App Structure
 
-File	Description
-Frontend.py	Main Streamlit app with 3 tabs: Ask Expert, Summarize Papers, Explain Concept
-Backend.py	Functions for searching the dataset and generating context summaries
+File/Folder	Description
+Frontend.py	Streamlit frontend - user interactions, model selection, input handling
+Backend.py	Backend logic - dataset search, context generation
+requirements.txt	Python dependencies
+
 📸 Screenshot
 ![image](https://github.com/user-attachments/assets/ab8fd1ad-0dfc-43ee-9b64-f74b086dbe5e)
 ![image](https://github.com/user-attachments/assets/6b0f2631-7d8a-481b-8c66-3357dd78dda2)
 ![image](https://github.com/user-attachments/assets/062ee07f-6fbe-4d57-96c5-2cc9c68f5bbd)
 ![image](https://github.com/user-attachments/assets/cccf343f-bfdd-46e9-9b62-3a8b70d07361)
 
-
-(You can add screenshots here once you take them.)
-
 📚 Learning Outcomes
-Building a real-world Retrieval-Augmented Generation (RAG) application.
+Hands-on experience building RAG (Retrieval-Augmented Generation) systems.
 
-Connecting local LLMs (via Ollama) into a Streamlit app.
+Streamlit development with real-time AI responses.
 
-Implementing efficient multithreaded search.
+Using multithreading for efficient large dataset search.
 
-Practicing prompt engineering and streaming responses.
+Deployment and integration of local LLMs using Ollama.
 
-Developing a professional AI chatbot experience.
+Advanced prompt engineering for expert-level AI answers.
 
-🙌 Acknowledgements
+🙏 Acknowledgements
 LangChain
 
 Ollama
 
-arXiv Dataset
+arXiv Dataset - Computer Science Domain
 
 📬 Contact
-LinkedIn: Mohit Pathak
+Name: Mohit Pathak
 
-Email: your.email@example.com
+LinkedIn: Mohit Pathak LinkedIn
+
+Email: pathakmohit3666@gmail.com
+
+
+
+
+
+
 
