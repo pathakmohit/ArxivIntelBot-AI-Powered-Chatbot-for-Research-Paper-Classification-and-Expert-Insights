@@ -9,8 +9,7 @@ from Backend import search_papers, generate_context_summary
 # Load LLM model
 @st.cache_resource(show_spinner=False)
 def load_llm(model_name="llama3"):
-    return OllamaLLM(model=model_name)
-
+    return OllamaLLM(model=model_name, base_url="https://e8a4-34-143-171-160.ngrok-free.app")  # Replace with Ollama's Ngrok URL
 # Available LLMs
 models = {
     "Llama3": "llama3",
