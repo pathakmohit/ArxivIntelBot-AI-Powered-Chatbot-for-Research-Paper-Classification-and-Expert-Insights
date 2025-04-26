@@ -116,7 +116,7 @@ streamlit run Frontend.py
 ## 📬 Contact
 
 - **Name:** Mohit Pathak
-- **LinkedIn:** [Mohit Pathak LinkedIn](https://www.linkedin.com/in/mohit-pathak-766892220)
+- **LinkedIn:** https://www.linkedin.com/in/mohit-pathak-766892220
 - **Email:** pathakmohit3666@gmail.com
 
 
