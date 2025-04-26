@@ -4,9 +4,13 @@ import json
 import os
 import pickle
 from concurrent.futures import ThreadPoolExecutor
-
-# Dataset Path
-DATASET_PATH = "D:/project101/task7/arxiv-metadata-oai-snapshot.json"
+import gdown
+def download_dataset():
+    url = "https://drive.google.com/file/d/17_TAzEQimPfmsDoExFoRd--3XGf666IH/view?usp=drive_link"  # Replace with your link
+    output = "/tmp/arxiv-metadata-oai-snapshot.json"
+    gdown.download(url, output, quiet=False)
+    return output
+DATASET_PATH = download_dataset()
 
 # Load and Search Dataset with Multithreading
 def search_papers(query, file_path=DATASET_PATH, max_results=5):
