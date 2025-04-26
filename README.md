@@ -110,9 +110,10 @@ streamlit run Frontend.py
 ![image](https://github.com/user-attachments/assets/062ee07f-6fbe-4d57-96c5-2cc9c68f5bbd)
 ![image](https://github.com/user-attachments/assets/cccf343f-bfdd-46e9-9b62-3a8b70d07361)
 
+
 ## 📬 Contact
 
 - **Name:** Mohit Pathak
-- **LinkedIn:** [Mohit Pathak LinkedIn]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/mohit-pathak-766892220/))
+- **LinkedIn:** [Mohit Pathak LinkedIn]([https://www.linkedin.com/in/mohit-pathak-766892220/])
 - **Email:**pathakmohit3666@gmail.com
 
