@@ -1,4 +1,4 @@
-ArxivIntelBot: AI-Powered Chatbot for Research Paper Classification and Expert Insights
+# ArxivIntelBot: AI-Powered Chatbot for Research Paper Classification and Expert Insights
 🚀 An intelligent chatbot designed to:
 
 Search Computer Science research papers from arXiv.
