@@ -9,7 +9,8 @@ from Backend import search_papers, generate_context_summary
 # Load LLM model
 @st.cache_resource(show_spinner=False)
 def load_llm(model_name="llama3"):
-    return OllamaLLM(model=model_name, base_url="https://e8a4-34-143-171-160.ngrok-free.app")  # Replace with Ollama's Ngrok URL
+    return OllamaLLM(model=model_name)
+
 # Available LLMs
 models = {
     "Llama3": "llama3",
@@ -18,7 +19,7 @@ models = {
 }
 
 # Setup Streamlit App
-st.title("🧠 Expert Chatbot with RAG - Computer Science Domain")
+st.title("🧠 ArxivIntelBot: AI-Powered Chatbot for Research Paper Classification and Expert Insights")
 
 # Model Selection
 selected_model = st.selectbox("Select LLM Model", list(models.keys()), key="model_selector")
